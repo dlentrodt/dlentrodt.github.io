@@ -1,0 +1,188 @@
+\documentclass[crop,tikz]{standalone}
+\usepackage{tikz}
+%\usepackage{helvet}
+%\renewcommand{\familydefault}{\sfdefault}
+
+\usepackage{xcolor}
+
+\usetikzlibrary{shapes.geometric, arrows}
+\usetikzlibrary{patterns}
+\usepackage[compat=1.0.0]{tikz-feynman}
+\usetikzlibrary{decorations.pathreplacing,angles,quotes,decorations.pathmorphing}
+\usepackage{tkz-euclide}
+\usetkzobj{all}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.9}
+
+\usepackage{scalerel} %for subscript scaling
+
+\definecolor{parrattColor1}{RGB}{255, 204, 153}
+\definecolor{parrattColor2}{RGB}{153, 204, 255}
+\definecolor{claddingColor}{RGB}{255, 128, 128}
+\definecolor{guidingColor}{RGB}{179, 179, 179}\definecolor{parrattColor1}{RGB}{255, 204, 153}
+\definecolor{parrattColor2}{RGB}{153, 204, 255}
+\definecolor{claddingColor}{RGB}{255, 128, 128}
+\definecolor{guidingColor}{RGB}{179, 179, 179}
+\definecolor{brightOrange}{RGB}{255,131,0}
+\definecolor{brightYellow}{RGB}{255,131,0}
+%\definecolor{brightYellow}{RGB}{254, 223, 0}
+\definecolor{deepPink}{RGB}{255,20,147}
+\definecolor{limeGreen}{RGB}{50,205,50}
+%\definecolor{arrowGreen}{RGB}{0,128,0}
+\definecolor{arrowGreen}{RGB}{0,150,0}
+\definecolor{blockGrey}{RGB}{235,235,235}
+\newcommand\colNum{248}
+\definecolor{boxBgGray}{RGB}{\colNum,\colNum,\colNum}
+%\definecolor{FeshArrCol}{RGB}{180,150,0}
+%\definecolor{FeshArrCol}{RGB}{0,0,0}
+\definecolor{FeshArrCol}{RGB}{0,150,0}
+
+\newcommand\lwi{5.0pt}
+\newcommand\lwii{7.0pt}
+\newcommand\lwiAr{3.0pt}
+\newcommand\lwiCont{1.5pt}
+\newcommand\fsArrowi{\normalsize}
+\newcommand\x{30}
+\newcommand\extModeH{0.6}
+\newcommand\extModeHH{0.3}
+\newcommand\extModeHHH{0.0}
+\newcommand\operatorSize{\normalsize}
+\newcommand\headLineSize{\large}
+\newcommand\descriptorSize{\large}
+\newcommand\arrowSize{\normalsize}
+\newcommand\sectionSize{5pt}
+\newcommand\sectionFontSize{\scriptsize\itshape}
+\newcommand\secLabel {}
+\newcommand\ampFast{0.2}
+\newcommand\upInc{0.2}
+\newcommand\upIncA{1.9}
+\newcommand\upIncB{-0.61}
+\newcommand\picOffset{-0.2}
+
+%\newcommand\boxOpac{0.1}
+\newcommand\hamilOpac{0.12}
+\newcommand\scattOpac{0.3}
+%\definecolor{boxColor}{RGB}{0,0,0}
+\definecolor{hamilColor}{RGB}{0,0,0}
+\definecolor{scattColor}{RGB}{0,0,0}
+
+%\definecolor{blue}{rgb}{0.0, 0.0, 1.0}
+%\definecolor{magenta}{rgb}{1.0, 0.0, 1.0}
+%\definecolor{magenta}{rgb}{0.79, 0.08, 0.48}
+%\definecolor{magenta}{rgb}{1.0, 0.0, 0.56}
+%\definecolor{magenta}{rgb}{0.8, 0.0, 0.8}
+
+% matplotlib colors
+\definecolor{pltDarkblue}{HTML}{00008B}
+\definecolor{pltRed}{HTML}{FF0000}
+\definecolor{pltGray}{HTML}{808080}
+\definecolor{pltGreen}{HTML}{008000}
+\definecolor{pltBlack}{HTML}{000000}
+\definecolor{pltYellow}{HTML}{FFFF00}
+
+% black bg colors
+\definecolor{richBlack}{HTML}{252525}
+\definecolor{richLGray}{HTML}{D4D8DE}
+\definecolor{richDGray}{HTML}{656565}
+\definecolor{richTurq}{HTML}{46BCDE}
+\definecolor{richGreen}{HTML}{52D273}
+\definecolor{richRed}{HTML}{E94F64}
+\definecolor{richOrange}{HTML}{E57254}
+\definecolor{richYellow}{HTML}{E5C454}
+
+\usetikzlibrary{decorations.shapes}
+
+\begin{document}
+	\tikzset{decorate sep/.style 2 args=
+		{decorate,decoration={shape backgrounds,shape=circle,shape size=#1,shape sep=#2}}}
+	
+	\begin{tikzpicture}[photon/.style={decorate,decoration={snake,post length=1mm}}]
+	%\selectcolormodel{gray}
+	\begin{scope}[shift={($(0,-6.5)$)},scale=1.0]
+	\fill [richLGray,opacity=0.8,rounded corners=15pt] (-4.1,-1.9) rectangle (3,2.7);
+	\draw [black,opacity=0.] (-4.3,-3.5) rectangle (10.8,4.1);
+	
+	\draw [blue,line width=\lwi] (-2.0,1.5) -- (-1.5,1.5) -- (-1.5,-1) --node[align=center,midway,below] {} (1.5,-1) -- (1.5,1.5) -- (2.0,1.5) node [right,below] {};
+	\draw[blue,decorate sep={1.1mm}{2mm},fill] (-2.15,1.5) -- (-2.65,1.5);
+	\draw[blue,decorate sep={1.1mm}{2mm},fill] (2.15,1.5) -- (2.65,1.5);
+	%%%\draw [blue,line width=\lwi] (-2.0,-1) -- (-1.75,-1) -- (-1.75,1.5) -- (-1.5,1.5) -- (-1.5,-1) --node[align=center,midway,below] {\textbf{Potential}} (1.5,-1) -- (1.5,1.5) -- (1.75,1.5) -- (1.75,-1) -- (2.0,-1) node [right,below] {};
+	
+	\draw[brightYellow,line width=\lwiCont,line cap=round] (-3.8,0) sin (-3.4,-0.3) cos (-3.0,0) sin (-2.6,0.3) cos (-2.2,0.0) sin (-1.8,-0.3) cos (-1.4,0) sin (0,1) cos (1.4,0) sin (1.8,-0.3) cos (2.2,0) sin (2.6,0.3);
+	
+	\draw[brightYellow,line width=\lwiCont,line cap=round] (-3.8,0+\upInc) sin (-3.4,-0.3+\upInc) cos (-3.0,0+\upInc) sin (-2.6,0.3+\upInc) cos (-2.2,0.0+\upInc) sin (-1.8,-0.3+\upInc) cos (-1.4,0+\upInc) sin (0,1+\upInc) cos (1.4,0+\upInc) sin (1.8,-0.3+\upInc) cos (2.2,0+\upInc) sin (2.6,0.3+\upInc);
+	
+	\draw[brightYellow,line width=\lwiCont,line cap=round] (-3.8,0+2*\upInc) sin (-3.4,-0.3+2*\upInc) cos (-3.0,0+2*\upInc) sin (-2.6,0.3+2*\upInc) cos (-2.2,0.0+2*\upInc) sin (-1.8,-0.3+2*\upInc) cos (-1.4,0+2*\upInc) sin (0,1+2*\upInc) cos (1.4,0+2*\upInc) sin (1.8,-0.3+2*\upInc) cos (2.2,0+2*\upInc) sin (2.6,0.3+2*\upInc);
+	
+	\draw[brightYellow,line width=\lwiCont,line cap=round] (-3.8,0+\upIncA) sin (-3.6,-\ampFast+\upIncA) cos (-3.4,0+\upIncA) sin (-3.2,\ampFast+\upIncA) cos (-3.0,0.0+\upIncA) sin (-2.8,-\ampFast+\upIncA) cos (-2.6,0+\upIncA) sin (-2.4,\ampFast+\upIncA) cos (-2.2,0+\upIncA) sin (-2.0,-\ampFast+\upIncA) cos (-1.8,0+\upIncA) sin (-1.6,\ampFast+\upIncA) cos (-1.4,0+\upIncA) sin (-1.2,-\ampFast+\upIncA) cos (-1.0,0+\upIncA) sin (-0.8,\ampFast+\upIncA) cos (-0.6,0+\upIncA) sin (-0.4,-\ampFast+\upIncA) cos (-0.2,0+\upIncA) sin (-0.0,\ampFast+\upIncA) cos (+0.2,0+\upIncA) sin (+0.4,-\ampFast+\upIncA) cos (+0.6,0+\upIncA) sin (+0.8,\ampFast+\upIncA) cos (+1.0,0+\upIncA) sin (+1.2,-\ampFast+\upIncA) cos (+1.4,0+\upIncA) sin (+1.6,\ampFast+\upIncA) cos (+1.8,0+\upIncA) sin (+2.0,-\ampFast+\upIncA) cos (+2.2,0+\upIncA) sin (+2.4,\ampFast+\upIncA) cos (+2.6,0+\upIncA);
+	
+	\draw[brightYellow,line width=\lwiCont,line cap=round] (-3.8,0+\upIncB) sin (-3.0,-0.2+\upIncB) cos (-2.2,0+\upIncB) sin (-1.4,0.2+\upIncB) cos (-0.6,0.0+\upIncB) sin (+0.2,-0.2+\upIncB) cos (+1.0,0+\upIncB) sin (+1.8,0.2+\upIncB) cos (+2.6,0+\upIncB);
+	
+	\draw[brightYellow,decorate sep={1.1mm}{2mm},fill] (0.85,-0.35) -- (0.85,0.44);
+	\draw[brightYellow,decorate sep={1.1mm}{2mm},fill] (0.85,1.2) -- (0.85,1.8);
+	
+	%\node[brightYellow,font=\operatorSize] at (-3,0.8) {$\hat{c}$};
+	%\draw[<-,>=stealth'] (0.1,1.05) -- (0.5,2) node [above] {\bfseries normal mode};
+	%\node [brightOrange] at (0.0,-0.6) {\bfseries normal modes};
+	\draw[line width=1.6pt] (-0.2,0.2) node [above left] {} -- (0.2,0.2);
+	\draw[line width=1.6pt] (-0.2,-0.2) node [below left] {} -- (0.2,-0.2);
+	\draw[<->,>=stealth'] (0.0,0.2) -- node [midway,left] {$\omega_a$}(0.0,-0.2);
+	
+	\draw[<->,>=stealth',dashed] (0.22,0.2) -- node[midway,below right=-0.05cm and -0.1cm] {} (0.47,0.63+\upIncA-0.9-\ampFast+0.3);%$g$
+	\draw[<->,>=stealth',dashed] (0.22,0.2) -- node[midway,below right=-0.05cm and -0.1cm] {} (0.75,0.63);%$g$
+	\draw[<->,>=stealth',dashed] (0.22,0.2) -- node[midway,below right=-0.05cm and -0.1cm] {} (0.8,1.4);%$g$
+	\draw[<->,>=stealth',dashed] (0.22,0.2) -- node[midway,below right=-0.05cm and -0.1cm] {} (0.75,0.63+\upInc);%$g$
+	\draw[<->,>=stealth',dashed] (0.22,0.2) -- node[midway,below right=-0.05cm and -0.1cm] {} (0.75,0.63+2*\upInc);%$g$
+	\draw[<->,>=stealth',dashed] (0.22,0.2) -- node[midway,below right=-0.05cm and -0.1cm] {} (0.8,-0.12);%$g$
+	\draw[<->,>=stealth',dashed] (0.22,0.2) -- node[midway,below right=-0.05cm and -0.1cm] {} (0.6,-0.12+\upIncB);%
+	\end{scope}
+	%	\begin{scope}[shift={($(0,0)$)},scale=1.0]
+	%		\fill [boxBgGray,opacity=1] (-4.3,-2) rectangle (3,3);
+	%		
+	%		%\draw[->,>=stealth'] (-4,1.6) -- node [midway,above] {$e^{ikx}$} (-2.5,1.6);
+	%		%\draw[<-,>=stealth'] (-4,1.4) -- node [midway,below] {$S(k)e^{-ikx}$} (-2.5,1.4);
+	%		\draw[->,dashed,>=stealth'] (-3,-1) -- (2.5,-1) node [below] {$x$};
+	%		\draw [blue,line width=\lwi] (-2,1.5) -- (-1.5,1.5) -- (-1.5,-1) -- node[align=center,midway,below] {\textbf{Potential}} (1.5,-1) -- (1.5,1.5) -- (2,1.5) node [right,below] {};
+	%		
+	%		\draw[line width=1.6pt] (-0.2,0.2) node [above left] {} -- (0.2,0.2);
+	%		\draw[line width=1.6pt] (-0.2,-0.2) node [below left] {} -- (0.2,-0.2);
+	%		\draw[<->,>=stealth'] (0.0,0.2) -- node [midway,left] {$\omega_0$}(0.0,-0.2);
+	%		
+	%		\draw[brightOrange,line width=\lwi] (-3.8,0) sin (-3.4,-0.3) cos (-3.0,0) sin (-2.6,0.3) cos (-2.2,0.0) sin (-1.8,-0.3) cos (-1.4,0) sin (0,1) cos (1.4,0) sin (1.8,-0.3) cos (2.2,0) sin (2.6,0.3);
+	%		
+	%		%\draw[<-,>=stealth'] (0.1,1.05) -- (0.5,2) node [above] {\bfseries normal mode};
+	%		
+	%		\draw[<->,>=stealth',dashed] (0.22,0.2) -- node[midway,below right] {$g$} (0.75,0.63);
+	%		\node[orange,font=\operatorSize] at (-0.6,1.2) {$\hat{c}$};
+	%		\draw[photon,->,>=stealth'] (0.1,0.2) -- (0.8,-0.4) node [below] {$\gamma$};
+	%	\end{scope}
+	
+		\begin{scope}[shift={($(8,-6.5)$)},scale=1.0]
+			\fill [richLGray,opacity=0.8,rounded corners=15pt] (-4.3,-1.9) rectangle (2.6,2.7);
+			%\fill [fill=white] (-7.0,0.2)rectangle (-5.3,0.8);
+			%\draw [arrowGreen,{Latex[length=3mm,width=5mm]}-,opacity=1,line width=\lwi] (-4.3,0.5) node[right] {} -- node [midway,above=0.2cm,font=\bf,fill=white,fill opacity=0.0,text opacity=1.0] {\LARGE } node [midway, above=0.1cm, font=\normalsize\bfseries,align=center] {?} (-8+11-8,0.5);
+			\draw [<-,>=stealth',red,line width=2pt] (-4.3+1,2.55) to [out=150,in=30] node[midway, above,font=\bfseries\LARGE]{?} (-8+11-8-1,2.55);
+			
+			\draw [blue,line width=\lwi] (-2,1.5) -- (-1.5,1.5) -- (-1.5,-1) --node[align=center,midway,below] {} (1.5,-1) -- (1.5,1.5) -- (2,1.5) node [right,below] {};
+			
+			\draw[line width=1.6pt] (-0.2,0.2) node [above left] {} -- (0.2,0.2);
+			\draw[line width=1.6pt] (-0.2,-0.2) node [below left] {} -- (0.2,-0.2);
+			\draw[<->,>=stealth'] (0.0,0.2) -- node [midway,left] {$\omega_a$}(0.0,-0.2);
+			\draw[photon,->,>=stealth'] (0.1,0.2) -- (0.8,-0.4) node [below] {$\gamma$};
+			
+			%\draw[<-,>=stealth'] (0.2,1.05) -- (0.5,2.3) node [magenta,above,align=center] {\bfseries cavity mode};
+			\node [cyan] at (-2.85,-0.2) {};%\bfseries external bath
+			%\node [magenta] at (0.0,-0.2) {\bfseries cavity mode};
+			
+			\draw[cyan,line width=\lwi,line cap=round] (-3.9,\extModeH) sin (-3.5,\extModeH+0.3) cos (-3.1,\extModeH) sin (-2.7,\extModeH-0.3) cos (-2.3,\extModeH) node [above,font=\operatorSize] {$\hat{b}$} sin (-1.9,\extModeH+0.3) cos (-1.5,\extModeH);
+%			\draw[cyan,line width=\lwi,line cap=round] (-3.9,\extModeHH) sin (-3.5,\extModeHH+0.3) cos (-3.1,\extModeHH) sin (-2.7,\extModeHH-0.3) cos (-2.3,\extModeHH) node [above,font=\operatorSize] {} sin (-1.9,\extModeHH+0.3) cos (-1.5,\extModeHH);
+%			\draw[cyan,line width=\lwi,line cap=round] (-3.9,\extModeHHH) sin (-3.5,\extModeHHH+0.3) cos (-3.1,\extModeHHH) sin (-2.7,\extModeHHH-0.3) cos (-2.3,\extModeHHH) node [above,font=\operatorSize] {} sin (-1.9,\extModeHHH+0.3) cos (-1.5,\extModeHHH);
+			
+			\draw[magenta,line width=\lwi,line cap=round] (-1.5,0) sin (0,1) node [above,font=\operatorSize] {$\hat{a}$}cos (1.5,0);
+			\draw[<->,>=stealth',dashed] (0.22,0.2) -- node[midway,below right] {$g$} (0.75,0.7);
+			
+			\draw[<->,>=stealth',dashed,node distance=0cm] (-2.2,1.15) [out=40, in=150] to node [midway,above] {} (-0.15,1.35);%$\mathcal{W}$
+			
+			\draw[photon,->,>=stealth'] (1.2,0.2) -- (2.2,0.2) node [above] {$\kappa$};
+		\end{scope}
+	\end{tikzpicture}
+\end{document}

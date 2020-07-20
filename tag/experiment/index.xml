@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Experiment | Dominik Lentrodt</title>
+    <link>https://www.mpi-hd.mpg.de/personalhomes/lentrodt/tag/experiment/</link>
+      <atom:link href="https://www.mpi-hd.mpg.de/personalhomes/lentrodt/tag/experiment/index.xml" rel="self" type="application/rss+xml" />
+    <description>Experiment</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Sun, 19 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://www.mpi-hd.mpg.de/personalhomes/lentrodt/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Experiment</title>
+      <link>https://www.mpi-hd.mpg.de/personalhomes/lentrodt/tag/experiment/</link>
+    </image>
+    
+    <item>
+      <title>Nuclear quantum optics</title>
+      <link>https://www.mpi-hd.mpg.de/personalhomes/lentrodt/project/xraycavtheory/</link>
+      <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.mpi-hd.mpg.de/personalhomes/lentrodt/project/xraycavtheory/</guid>
+      <description>&lt;p&gt;When thinking of nuclei and quantum optics, the first topics that come to mind are nuclear magnetic resonance (NMR) and diamond vacancy centers. However, there is more!
+Many nuclei feature ultra-narrow transitions in the hard X-ray domain, which can be excited by radioactive sources or modern X-ray facilities, such as X-ray free electron lasers (XFELs).
+These systems provide a promising candidate for the new field of X-ray quantum optics 
+&lt;a href=&#34;#external-references&#34;&gt;[1-2]&lt;/a&gt;. Compared to the alternative electronic resonances at these energies, nuclei provide excellent coherence properties promising the access to truly quantum phenomena.&lt;/p&gt;
+&lt;p&gt;For example, Mössbauer nuclei feature incredibly low decoherence, with quality factors of 10&lt;sup&gt;12&lt;/sup&gt; up to 10&lt;sup&gt;24&lt;/sup&gt;, often outcompeting even the best superconducting qubits in this regard, which are nowadays being used to build quantum computers. While this simple feature hints at what an exciting platform these nuclei provide, it is clear that we are not going to build a nuclear quantum computer any time soon. One main reason is that operating these extreme quantum systems is challenging.&lt;/p&gt;
+&lt;p&gt;A big part of my PhD research is to find out how far modern X-ray sources can take Mössbauer nuclei in the quantum direction. The big questions include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;How do we drive the transitions efficiently?&lt;/li&gt;
+&lt;li&gt;Which quantum dynamical processes can be induced?&lt;/li&gt;
+&lt;li&gt;Can we achieve non-linear effects?&lt;/li&gt;
+&lt;li&gt;How to detect quantum effects and correlations of the X-ray light?&lt;/li&gt;
+&lt;li&gt;How to obtain nuclear observables?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;One exciting platform to investigate these questions is nuclear cavity QED, where the interaction between X-rays and nuclei is enhanced by a thin-film material stack (see figure), which in effect behaves much like a Fabry-Perot cavity in the optical regime. One can achieve collective effects in this setup, which have already been investigated extensively in the semi-classical sector at low excitations 
+&lt;a href=&#34;#external-references&#34;&gt;[3-9]&lt;/a&gt;. The idea here is that in addition to the astonishing development in X-ray source technology of the last decades, we will also require 
+&lt;a href=&#34;https://www.mpi-hd.mpg.de/personalhomes/lentrodt/project/coherentcontrol&#34;&gt;control techniques&lt;/a&gt; and tailored systems to make progress.&lt;/p&gt;
+&lt;p&gt;The main goal of answering the questions above is to see if we can achieve quantum effects, which would provide a completely new platform for quantum dynamics with extreme transitions. At the same time, quantum effects could be used to improve the many existing applications of these systems, ranging from materials science to metrology. I develop theoretical methods to answer these questions and also contribute to and performe experiments at large scale X-ray facilities to investigate the effects that we find.&lt;/p&gt;
+&lt;h2 id=&#34;external-references&#34;&gt;External references&lt;/h2&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://doi.org/10.1080/09500340.2012.752113&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[1] B. W. Adams et al. &lt;em&gt;Journal of Modern Optics&lt;/em&gt;, &lt;strong&gt;60&lt;/strong&gt;, 2-21 (2013)&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;https://arxiv.org/abs/1903.09317&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[2] B. W. Adams et al. &lt;em&gt;arXiv:1903.09317&lt;/em&gt; (2019)&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;https://doi.org/10.1126/science.1187770&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[3] R. Röhlsberger et al. &lt;em&gt;Science&lt;/em&gt; &lt;strong&gt;328&lt;/strong&gt;, 1248 (2010)&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;https://doi.org/10.1038/nature10741&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[4] R. Röhlsberger et al. &lt;em&gt;Nature&lt;/em&gt; &lt;strong&gt;482&lt;/strong&gt;, 199–203 (2012)&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;https://doi.org/10.1103/PhysRevLett.111.073601&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[5] K. P. Heeg et al. &lt;em&gt;Phys. Rev. Lett.&lt;/em&gt; &lt;strong&gt;111&lt;/strong&gt;, 073601 (2013)&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;https://doi.org/10.1103/PhysRevLett.114.207401&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[6] K. P. Heeg et al. &lt;em&gt;Phys. Rev. Lett.&lt;/em&gt; &lt;strong&gt;114&lt;/strong&gt;, 207401 (2015)&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;https://doi.org/10.1103/PhysRevLett.114.203601&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[7] K. P. Heeg et al. &lt;em&gt;Phys. Rev. Lett.&lt;/em&gt; &lt;strong&gt;114&lt;/strong&gt;, 203601 (2015)&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;https://doi.org/10.1038/nphoton.2016.77&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[8] J. Haber et al. &lt;em&gt;Nat. Photon.&lt;/em&gt; &lt;strong&gt;10&lt;/strong&gt;, 445–449 (2016)&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;https://doi.org/10.1038/s41566-017-0013-3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[9] J. Haber et al. &lt;em&gt;Nat. Photon.&lt;/em&gt; &lt;strong&gt;11&lt;/strong&gt;, 720–725 (2017)&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;related-publications&#34;&gt;Related publications&lt;/h2&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.mpi-hd.mpg.de/personalhomes/lentrodt/publication/heeg2017_science/&#34;&gt;K. P. Heeg et al. &lt;em&gt;Science&lt;/em&gt; &lt;strong&gt;357&lt;/strong&gt;, 375 (2017)&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;https://www.mpi-hd.mpg.de/personalhomes/lentrodt/publication/lentrodt2020b_preprint/&#34;&gt;D. Lentrodt et al. &lt;em&gt;arXiv:2003.13859&lt;/em&gt; (2020)&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Coherent control with X-rays</title>
+      <link>https://www.mpi-hd.mpg.de/personalhomes/lentrodt/project/coherentcontrol/</link>
+      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.mpi-hd.mpg.de/personalhomes/lentrodt/project/coherentcontrol/</guid>
+      <description>&lt;p&gt;Operating nuclear X-ray quantum systems is challenging, due to the extreme scales involved. In recent years, the availability of large scale X-ray facilities has kicked off a &amp;ldquo;source-driven revolution&amp;rdquo; 
+&lt;a href=&#34;#external-references&#34;&gt;[1]&lt;/a&gt;, with many X-ray photons and excellent beam quality being available. However, this is where the ultra-narrow resonances become a challenge, since even a very well monochromatized X-ray beam is orders of magnitude broader than the transition linewidth, such that only few photons excite the transition.&lt;/p&gt;
+&lt;p&gt;To overcome this challenge and to be able to employ concepts from visible quantum optics, it is necessary to develop novel control techniques and optimized setups. 
+&lt;a href=&#34;https://www.mpi-hd.mpg.de/personalhomes/lentrodt/project/xraycavtheory&#34;&gt;X-ray cavity QED&lt;/a&gt; is one avenue in this direction. Another avenue is coherent control, which is a paradigm across the optical sciences.&lt;/p&gt;
+&lt;p&gt;Next to my main projects, I also contribute to this experimental development. As an example, we designed a setup where a broad spectrum from an X-ray source is &amp;ldquo;sharpened&amp;rdquo; by shoveling photons onto the resonance energy 
+&lt;a href=&#34;#related-publications&#34;&gt;[a]&lt;/a&gt;, taking previous experiments using time-domain pulse shaping 
+&lt;a href=&#34;#external-references&#34;&gt;[2]&lt;/a&gt; to the spectral domain. The basic idea is to use forward scattering and a mechanical &amp;ldquo;digger&amp;rdquo; (see figure) given by a piezo-electric transducer, whose motion can be controlled. This idea of spectral shaping in the hard X-ray domain may find broad applications with ultra-narrow resonances to increase photon count rate by at least an order of magnitude, which may make new experiments possible.&lt;/p&gt;
+&lt;p&gt;In follow-up experiments, we are taking this idea one step further. In a recent preprint 
+&lt;a href=&#34;#related-publications&#34;&gt;[b]&lt;/a&gt;, we demonstrate how these concepts can be employed for coherent X-ray optical control of nuclear dynamics. A multi-dimensional detection technique allows us to track the nuclear excitation and to contol it subsequently via the piezo motion. In nuclear resonance scattering, this constitutes a paradigm shift away from characterization and optimization of the light field to nuclear observables. As an interesting side-note, our experiment broke the previous world-record 
+&lt;a href=&#34;#external-references&#34;&gt;[3]&lt;/a&gt; for interferometric stability in the time-domain, as measured by the so-called Allan deviation 
+&lt;a href=&#34;#external-references&#34;&gt;[4]&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;external-references&#34;&gt;External references&lt;/h2&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://dx.doi.org/10.1007/s10751-008-9720-y&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[1] G. K. Shenoy and R. Röhlsberger, &lt;em&gt;Hyperfine Interactions&lt;/em&gt; &lt;strong&gt;182&lt;/strong&gt;, 157 (2008)&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;https://doi.org/10.1038/nature13018&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[2] F. Vagizov et al. &lt;em&gt;Nature&lt;/em&gt; &lt;strong&gt;508&lt;/strong&gt;, 80–83 (2014)&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;https://doi.org/10.1103/PhysRevLett.109.263902&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[3] D. E. Laban et al. &lt;em&gt;Phys. Rev. Lett.&lt;/em&gt; &lt;strong&gt;109&lt;/strong&gt;, 263902 (2012)&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;https://doi.org/10.1109/PROC.1966.4634&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[4] D. Allan, &lt;em&gt;Proc. IEEE&lt;/em&gt; &lt;strong&gt;54&lt;/strong&gt;, 221 (1966)&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;related-publications&#34;&gt;Related publications&lt;/h2&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.mpi-hd.mpg.de/personalhomes/lentrodt/publication/heeg2017_science/&#34;&gt;[a] K. P. Heeg et al. &lt;em&gt;Science&lt;/em&gt; &lt;strong&gt;357&lt;/strong&gt;, 375 (2017)&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;https://www.mpi-hd.mpg.de/personalhomes/lentrodt/publication/heeg2020_preprint/&#34;&gt;[b] K. P. Heeg et al. &lt;em&gt;arXiv:2003.03755&lt;/em&gt; (2020)&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

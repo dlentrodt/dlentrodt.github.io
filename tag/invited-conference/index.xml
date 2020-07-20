@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>invited-conference | Dominik Lentrodt</title>
+    <link>https://www.mpi-hd.mpg.de/personalhomes/lentrodt/tag/invited-conference/</link>
+      <atom:link href="https://www.mpi-hd.mpg.de/personalhomes/lentrodt/tag/invited-conference/index.xml" rel="self" type="application/rss+xml" />
+    <description>invited-conference</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Mon, 18 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://www.mpi-hd.mpg.de/personalhomes/lentrodt/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>invited-conference</title>
+      <link>https://www.mpi-hd.mpg.de/personalhomes/lentrodt/tag/invited-conference/</link>
+    </image>
+    
+    <item>
+      <title>X-ray quantum optics with Mössbauer nuclei</title>
+      <link>https://www.mpi-hd.mpg.de/personalhomes/lentrodt/talk/2019_02_riezlern/</link>
+      <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.mpi-hd.mpg.de/personalhomes/lentrodt/talk/2019_02_riezlern/</guid>
+      <description>&lt;!-- 
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Slides can be added in a few ways:
+
+- **Create** slides using Academic&#39;s [*Slides*](https://sourcethemes.com/academic/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
+- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
+- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
+
+Further talk details can easily be added to this page using *Markdown* and $\rm \LaTeX$ math code. --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
