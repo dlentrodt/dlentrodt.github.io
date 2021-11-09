@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dominik Lentrodt</title>
-    <link>https://www.mpi-hd.mpg.de/personalhomes/lentrodt/author/dominik-lentrodt/</link>
-      <atom:link href="https://www.mpi-hd.mpg.de/personalhomes/lentrodt/author/dominik-lentrodt/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://dlentrodt.github.io/author/dominik-lentrodt/</link>
+      <atom:link href="https://dlentrodt.github.io/author/dominik-lentrodt/index.xml" rel="self" type="application/rss+xml" />
     <description>Dominik Lentrodt</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Wed, 17 Feb 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://www.mpi-hd.mpg.de/personalhomes/lentrodt/author/dominik-lentrodt/avatar_hu01c9bb4a3506eab7676cd29a4d9bc220_4004757_270x270_fill_q90_lanczos_center.jpg</url>
+      <url>https://dlentrodt.github.io/author/dominik-lentrodt/avatar_hu01c9bb4a3506eab7676cd29a4d9bc220_4004757_270x270_fill_q90_lanczos_center.jpg</url>
       <title>Dominik Lentrodt</title>
-      <link>https://www.mpi-hd.mpg.de/personalhomes/lentrodt/author/dominik-lentrodt/</link>
+      <link>https://dlentrodt.github.io/author/dominik-lentrodt/</link>
     </image>
     
     <item>
       <title>Coherent X-ray−optical control of nuclear excitons</title>
-      <link>https://www.mpi-hd.mpg.de/personalhomes/lentrodt/publication/heeg2021_nature/</link>
+      <link>https://dlentrodt.github.io/publication/heeg2021_nature/</link>
       <pubDate>Wed, 17 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>https://www.mpi-hd.mpg.de/personalhomes/lentrodt/publication/heeg2021_nature/</guid>
+      <guid>https://dlentrodt.github.io/publication/heeg2021_nature/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
@@ -30,9 +30,9 @@ Supplementary notes can be added here, including [code and math](https://sourcet
     
     <item>
       <title>Ab initio quantum models for thin-film x-ray cavity QED</title>
-      <link>https://www.mpi-hd.mpg.de/personalhomes/lentrodt/publication/lentrodt2020b_prresearch/</link>
+      <link>https://dlentrodt.github.io/publication/lentrodt2020b_prresearch/</link>
       <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.mpi-hd.mpg.de/personalhomes/lentrodt/publication/lentrodt2020b_prresearch/</guid>
+      <guid>https://dlentrodt.github.io/publication/lentrodt2020b_prresearch/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
@@ -46,9 +46,9 @@ Supplementary notes can be added here, including [code and math](https://sourcet
     
     <item>
       <title>Ab initio few-mode theory for quantum potential scattering problems</title>
-      <link>https://www.mpi-hd.mpg.de/personalhomes/lentrodt/publication/lentrodt2020a_prx/</link>
+      <link>https://dlentrodt.github.io/publication/lentrodt2020a_prx/</link>
       <pubDate>Mon, 13 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.mpi-hd.mpg.de/personalhomes/lentrodt/publication/lentrodt2020a_prx/</guid>
+      <guid>https://dlentrodt.github.io/publication/lentrodt2020a_prx/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -69,9 +69,9 @@ Supplementary notes can be added here, including [code and math](https://sourcet
     
     <item>
       <title>Display Jupyter Notebooks with Academic</title>
-      <link>https://www.mpi-hd.mpg.de/personalhomes/lentrodt/post/jupyter/</link>
+      <link>https://dlentrodt.github.io/post/jupyter/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.mpi-hd.mpg.de/personalhomes/lentrodt/post/jupyter/</guid>
+      <guid>https://dlentrodt.github.io/post/jupyter/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from IPython.core.display import Image
 Image(&#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&#39;)
 &lt;/code&gt;&lt;/pre&gt;
@@ -118,9 +118,9 @@ date: 2019-09-01
     
     <item>
       <title>Spectral narrowing of x-ray pulses for precision spectroscopy with nuclear resonances</title>
-      <link>https://www.mpi-hd.mpg.de/personalhomes/lentrodt/publication/heeg2017_science/</link>
+      <link>https://dlentrodt.github.io/publication/heeg2017_science/</link>
       <pubDate>Fri, 28 Jul 2017 00:00:00 +0000</pubDate>
-      <guid>https://www.mpi-hd.mpg.de/personalhomes/lentrodt/publication/heeg2017_science/</guid>
+      <guid>https://dlentrodt.github.io/publication/heeg2017_science/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -141,9 +141,9 @@ Supplementary notes can be added here, including [code and math](https://sourcet
     
     <item>
       <title>Academic: the website builder for Hugo</title>
-      <link>https://www.mpi-hd.mpg.de/personalhomes/lentrodt/post/getting-started/</link>
+      <link>https://dlentrodt.github.io/post/getting-started/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://www.mpi-hd.mpg.de/personalhomes/lentrodt/post/getting-started/</guid>
+      <guid>https://dlentrodt.github.io/post/getting-started/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Create a free website with Academic using Markdown, Jupyter, or RStudio. Choose a beautiful color theme and build anything with the Page Builder - over 40 &lt;em&gt;widgets&lt;/em&gt;, &lt;em&gt;themes&lt;/em&gt;, and &lt;em&gt;language packs&lt;/em&gt; included!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or 

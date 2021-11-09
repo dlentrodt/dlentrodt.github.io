@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2 | Dominik Lentrodt</title>
-    <link>https://www.mpi-hd.mpg.de/personalhomes/lentrodt/publication-type/2/</link>
-      <atom:link href="https://www.mpi-hd.mpg.de/personalhomes/lentrodt/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://dlentrodt.github.io/publication-type/2/</link>
+      <atom:link href="https://dlentrodt.github.io/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Wed, 17 Feb 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://www.mpi-hd.mpg.de/personalhomes/lentrodt/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://dlentrodt.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>2</title>
-      <link>https://www.mpi-hd.mpg.de/personalhomes/lentrodt/publication-type/2/</link>
+      <link>https://dlentrodt.github.io/publication-type/2/</link>
     </image>
     
     <item>
       <title>Coherent X-ray−optical control of nuclear excitons</title>
-      <link>https://www.mpi-hd.mpg.de/personalhomes/lentrodt/publication/heeg2021_nature/</link>
+      <link>https://dlentrodt.github.io/publication/heeg2021_nature/</link>
       <pubDate>Wed, 17 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>https://www.mpi-hd.mpg.de/personalhomes/lentrodt/publication/heeg2021_nature/</guid>
+      <guid>https://dlentrodt.github.io/publication/heeg2021_nature/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
@@ -30,9 +30,9 @@ Supplementary notes can be added here, including [code and math](https://sourcet
     
     <item>
       <title>Ab initio quantum models for thin-film x-ray cavity QED</title>
-      <link>https://www.mpi-hd.mpg.de/personalhomes/lentrodt/publication/lentrodt2020b_prresearch/</link>
+      <link>https://dlentrodt.github.io/publication/lentrodt2020b_prresearch/</link>
       <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.mpi-hd.mpg.de/personalhomes/lentrodt/publication/lentrodt2020b_prresearch/</guid>
+      <guid>https://dlentrodt.github.io/publication/lentrodt2020b_prresearch/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
@@ -46,9 +46,9 @@ Supplementary notes can be added here, including [code and math](https://sourcet
     
     <item>
       <title>Ab initio few-mode theory for quantum potential scattering problems</title>
-      <link>https://www.mpi-hd.mpg.de/personalhomes/lentrodt/publication/lentrodt2020a_prx/</link>
+      <link>https://dlentrodt.github.io/publication/lentrodt2020a_prx/</link>
       <pubDate>Mon, 13 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.mpi-hd.mpg.de/personalhomes/lentrodt/publication/lentrodt2020a_prx/</guid>
+      <guid>https://dlentrodt.github.io/publication/lentrodt2020a_prx/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -69,9 +69,9 @@ Supplementary notes can be added here, including [code and math](https://sourcet
     
     <item>
       <title>Spectral narrowing of x-ray pulses for precision spectroscopy with nuclear resonances</title>
-      <link>https://www.mpi-hd.mpg.de/personalhomes/lentrodt/publication/heeg2017_science/</link>
+      <link>https://dlentrodt.github.io/publication/heeg2017_science/</link>
       <pubDate>Fri, 28 Jul 2017 00:00:00 +0000</pubDate>
-      <guid>https://www.mpi-hd.mpg.de/personalhomes/lentrodt/publication/heeg2017_science/</guid>
+      <guid>https://dlentrodt.github.io/publication/heeg2017_science/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
