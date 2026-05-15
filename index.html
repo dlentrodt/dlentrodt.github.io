@@ -1,280 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Dominik Lentrodt - Bridging Academia and Industry with Expertise in Research and Innovation">
-    <meta name="keywords" content="Dominik Lentrodt, researcher, industry, academia, innovation, technology">
-    <meta name="author" content="Dominik Lentrodt">
-    
-    <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Dominik Lentrodt - Professional Portfolio">
-    <meta property="og:description" content="Bridging Academia and Industry with Expertise in Research and Innovation">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://dlentrodt.github.io">
-    
-    <!-- Twitter Card Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Dominik Lentrodt - Professional Portfolio">
-    <meta name="twitter:description" content="Bridging Academia and Industry with Expertise in Research and Innovation">
-    
-    <title>Dominik Lentrodt - Professional Portfolio</title>
-    
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
-    
-    <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    
-    <!-- Font Awesome for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home | Dominik Lentrodt</title>
+  <meta name="description" content="Home — Dominik Lentrodt">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="/css/site.css">
 </head>
 <body>
-    <!-- Navigation -->
+  <header class="site-header">
     <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <a href="#home">Dominik Lentrodt</a>
-            </div>
-            <div class="nav-menu" id="nav-menu">
-                <a href="#home" class="nav-link">Home</a>
-                <a href="#about" class="nav-link">About</a>
-                <a href="#experience" class="nav-link">Experience</a>
-                <a href="#projects" class="nav-link">Projects</a>
-                <a href="#contact" class="nav-link">Contact</a>
-            </div>
-            <div class="nav-toggle" id="nav-toggle">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </div>
+      <a class="navbar-brand" href="/">Dominik Lentrodt</a>
+      <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle theme">
+        <i class="fas fa-moon" id="theme-icon-moon" aria-hidden="true"></i>
+        <i class="fas fa-sun" id="theme-icon-sun" aria-hidden="true"></i>
+      </button>
+      <div class="nav-links">
+          <a class="nav-link active" href="/">Home</a>
+          <a class="nav-link" href="/publication/">Publications</a>
+          <a class="nav-link" href="/project/">Projects</a>
+          <a class="nav-link" href="/talk/">Talks</a>
+          <a class="nav-link" href="/#contact">Contact</a>
+          <a class="nav-link" href="/files/cv.pdf">CV</a>
+      </div>
     </nav>
+  </header>
+  <main class="site-main">
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-container">
-            <div class="hero-content">
-                <h1 class="hero-title">
-                    <span class="hero-greeting">Hello, I'm</span>
-                    <span class="hero-name">Dominik Lentrodt</span>
-                </h1>
-                <p class="hero-subtitle">
-                    Bridging the gap between <span class="highlight">academic research</span> and <span class="highlight">industry innovation</span>
-                </p>
-                <p class="hero-description">
-                    Former academic researcher now driving innovation in industry. 
-                    Passionate about translating complex research into practical solutions 
-                    that make a real-world impact.
-                </p>
-                <div class="hero-buttons">
-                    <a href="#about" class="btn btn-primary">Learn More</a>
-                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
-                </div>
-            </div>
-            <div class="hero-image">
-                <div class="hero-avatar">
-                    <i class="fas fa-user-circle"></i>
-                </div>
-            </div>
+    <section class="section">
+      <h1>About me</h1>
+      <div class="about-grid">
+        
+    <div class="card-sidebar">
+      <img class="avatar" src="/img/avatar.jpg" width="200" height="200" alt="Dominik Lentrodt">
+      <div class="role">Postdoc</div>
+      <div class="org"><a href="https://www.quantum.uni-freiburg.de/">University of Freiburg</a></div>
+      <div class="interests">
+        <strong>Interests</strong>
+        <ul>
+          <li>Cavity QED</li>
+          <li>Photonics</li>
+          <li>Open quantum systems</li>
+          <li>X-ray and nuclear quantum optics</li>
+        </ul>
+      </div>
+      <div class="education">
+        <div class="ed-row"><strong>Georg H. Endress postdoctoral fellow</strong><br>University of Freiburg</div>
+        <div class="ed-row"><strong>PhD in Physics</strong> (2021)<br>Max Planck Institute for Nuclear Physics, Heidelberg</div>
+        <div class="ed-row"><strong>4+4 Masters Program</strong> (2017)<br>HGSFP and MPIK, Heidelberg</div>
+        <div class="ed-row"><strong>MSc and BA in Natural Sciences</strong> (2016)<br>University of Cambridge, UK</div>
+      </div>
+      <div class="social-row">
+        <a href="mailto:dominik@lentrodt.com" title="Email" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/dominik-lentrodt-4567502b7/" title="LinkedIn" aria-label="LinkedIn" rel="noopener"><i class="fab fa-linkedin"></i></a>
+        <a href="https://scholar.google.com/citations?user=_l-iYhkAAAAJ&amp;hl=en" title="Google Scholar" aria-label="Google Scholar" rel="noopener"><i class="fa-brands fa-google-scholar"></i></a>
+        <a href="https://github.com/dlentrodt" title="GitHub" aria-label="GitHub" rel="noopener"><i class="fab fa-github"></i></a>
+        <a href="https://arxiv.org/a/lentrodt_d_1.html" title="arXiv" aria-label="arXiv" rel="noopener"><i class="fas fa-archive"></i></a>
+        <a href="https://orcid.org/0000-0001-7400-9575" title="ORCID" aria-label="ORCID" rel="noopener"><i class="fab fa-orcid"></i></a>
+        <a href="/files/cv.pdf" title="CV" aria-label="CV"><i class="fas fa-file-pdf"></i></a>
+      </div>
+    </div>
+    
+        <div class="about-body">
+          
+    <p>I am a <a href="https://www.quantum.unibas.ch/g-h-e-postdoc-cluster/">Georg H. Endress postdoctoral fellow</a>
+    working in the <a href="https://www.quantum.uni-freiburg.de/">Quantum Optics and Statistics group</a> of
+    <a href="https://www.frias.uni-freiburg.de/en/people/fellows/current-fellows/buchleitner">Andreas Buchleitner</a>
+    at the University of Freiburg. I am interested in quantum optics and photonics, both on the theoretical and on the experimental side.</p>
+    <p>Previously, I was a PhD student in the
+    <a href="https://www.mpi-hd.mpg.de/mpi/en/forschung/abteilungen-und-gruppen/theoretische-quantendynamik-und-quantenelektrodynamik/correlated-and-x-ray-quantum-dynamics">quantum dynamics group</a> of
+    <a href="https://www.mpi-hd.mpg.de/mpi/en/forschung/abteilungen-und-gruppen/theoretische-quantendynamik-und-quantenelektrodynamik/people/joerg-evers">Jörg Evers</a> in the
+    <a href="https://www.mpi-hd.mpg.de/keitel/">theory division</a> led by
+    <a href="https://www.mpi-hd.mpg.de/mpi/en/forschung/abteilungen-und-gruppen/theoretische-quantendynamik-und-quantenelektrodynamik/people/christoph-h-keitel-director">Christoph H. Keitel</a>
+    at the Max Planck Institute for Nuclear Physics in Heidelberg.</p>
+    <p>Information about my research and publications can be found via the <strong>Publications</strong>, <strong>Projects</strong>, and <strong>Talks</strong> links above.</p>
+    
         </div>
-        <div class="scroll-indicator">
-            <a href="#about">
-                <i class="fas fa-chevron-down"></i>
-            </a>
-        </div>
+      </div>
     </section>
-
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">About Me</h2>
-                <p class="section-subtitle">From academic research to industry innovation</p>
-            </div>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>
-                        I'm a researcher who has successfully transitioned from academia to industry, 
-                        bringing deep analytical thinking and rigorous research methodologies to 
-                        solve real-world problems. My journey has equipped me with a unique perspective 
-                        on how to bridge theoretical knowledge with practical applications.
-                    </p>
-                    <p>
-                        With a strong foundation in research and a passion for innovation, I thrive 
-                        in environments where complex problems meet creative solutions. I believe 
-                        in the power of interdisciplinary thinking and collaborative approaches 
-                        to drive meaningful change.
-                    </p>
-                    <div class="skills">
-                        <h3>Key Strengths</h3>
-                        <div class="skills-grid">
-                            <div class="skill-item">
-                                <i class="fas fa-microscope"></i>
-                                <span>Research & Analysis</span>
-                            </div>
-                            <div class="skill-item">
-                                <i class="fas fa-lightbulb"></i>
-                                <span>Innovation</span>
-                            </div>
-                            <div class="skill-item">
-                                <i class="fas fa-users"></i>
-                                <span>Collaboration</span>
-                            </div>
-                            <div class="skill-item">
-                                <i class="fas fa-chart-line"></i>
-                                <span>Problem Solving</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <section class="section section-alt" id="contact">
+      <h2>Contact</h2>
+      <p class="lead">University of Freiburg — Quantum Optics and Statistics</p>
+      <address>
+        <strong>Dominik Lentrodt</strong><br>
+        Hermann-Herder-Str. 3<br>
+        D-79104 Freiburg im Breisgau<br>
+        Germany<br><br>
+        <a href="mailto:dominik@lentrodt.com">dominik@lentrodt.com</a>
+      </address>
     </section>
-
-    <!-- Experience Section -->
-    <section id="experience" class="experience">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Professional Journey</h2>
-                <p class="section-subtitle">From academic research to industry impact</p>
-            </div>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h3>Industry Professional</h3>
-                        <span class="timeline-date">Present</span>
-                        <p>Applying research methodologies and analytical thinking to drive innovation and solve complex industry challenges.</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h3>Academic Researcher</h3>
-                        <span class="timeline-date">Previous</span>
-                        <p>Conducted rigorous research, published findings, and contributed to the advancement of knowledge in my field.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Featured Work</h2>
-                <p class="section-subtitle">Projects that showcase my expertise</p>
-            </div>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-icon">
-                        <i class="fas fa-flask"></i>
-                    </div>
-                    <h3>Research Publications</h3>
-                    <p>Published research papers demonstrating expertise in analytical thinking and scientific methodology.</p>
-                    <div class="project-tags">
-                        <span class="tag">Research</span>
-                        <span class="tag">Analysis</span>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-icon">
-                        <i class="fas fa-cogs"></i>
-                    </div>
-                    <h3>Industry Solutions</h3>
-                    <p>Applied research methodologies to develop innovative solutions for real-world industry challenges.</p>
-                    <div class="project-tags">
-                        <span class="tag">Innovation</span>
-                        <span class="tag">Problem Solving</span>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-icon">
-                        <i class="fas fa-handshake"></i>
-                    </div>
-                    <h3>Collaboration</h3>
-                    <p>Led cross-functional teams and collaborative projects bridging academic and industry perspectives.</p>
-                    <div class="project-tags">
-                        <span class="tag">Leadership</span>
-                        <span class="tag">Teamwork</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Get In Touch</h2>
-                <p class="section-subtitle">Let's connect and explore opportunities</p>
-            </div>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <div>
-                            <h4>Email</h4>
-                            <p>dominik.lentrodt@example.com</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fab fa-linkedin"></i>
-                        <div>
-                            <h4>LinkedIn</h4>
-                            <p>linkedin.com/in/dominiklentrodt</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fab fa-github"></i>
-                        <div>
-                            <h4>GitHub</h4>
-                            <p>github.com/dlentrodt</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="contact-form">
-                    <form id="contact-form">
-                        <div class="form-group">
-                            <input type="text" id="name" name="name" placeholder="Your Name" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" id="email" name="email" placeholder="Your Email" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
-                        </div>
-                        <div class="form-group">
-                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Send Message</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <p>&copy; 2024 Dominik Lentrodt. All rights reserved.</p>
-                <div class="social-links">
-                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
-                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
-                    <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- JavaScript -->
-    <script src="assets/js/script.js"></script>
+    
+  </main>
+  <footer class="site-footer">
+    <p>&copy; 2020 Dominik Lentrodt</p>
+    <p class="footer-links">
+      <a href="https://www.mpi-hd.mpg.de/mpi/en/impressum/" rel="noopener">Impressum (MPIK)</a>
+      &nbsp;&middot;&nbsp;
+      <a href="https://www.mpi-hd.mpg.de/mpi/en/datenschutzhinweis/" rel="noopener">Datenschutzhinweis (MPIK)</a>
+      &nbsp;&middot;&nbsp;
+      <a href="/files/impressum.html">Impressum (local)</a>
+    </p>
+  </footer>
+  <script src="/js/theme.js"></script>
 </body>
 </html>
