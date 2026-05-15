@@ -127,9 +127,36 @@ h3 { font-size: 1.1rem; margin: 1.25rem 0 0.5rem; }
 .interests { text-align: left; font-size: 0.9rem; margin: 1rem 0; }
 .interests strong { display: block; margin-bottom: 0.35rem; }
 .interests ul { margin: 0; padding-left: 1.1rem; }
-.education { text-align: left; font-size: 0.85rem; color: var(--muted); margin-top: 1rem; }
-.education > strong { display: block; margin-bottom: 0.35rem; color: var(--text); }
-.education .ed-row { margin-bottom: 0.5rem; }
+.sidebar-contact {
+  margin: 0.5rem 0 0;
+  font-size: 0.9rem;
+  word-break: break-word;
+}
+.sidebar-contact a { color: var(--link); }
+.education-block { margin-top: 1.75rem; }
+.education-block h3 {
+  margin: 0 0 0.75rem;
+  font-size: 1.1rem;
+  color: var(--primary);
+}
+.education-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.education-list li {
+  padding: 0.65rem 0 0.65rem 1rem;
+  border-left: 3px solid var(--primary);
+  margin-bottom: 0.35rem;
+}
+.education-list li:last-child { margin-bottom: 0; }
+.education-list li span:not(.year) {
+  display: block;
+  color: var(--muted);
+  font-size: 0.95rem;
+  margin-top: 0.15rem;
+}
+.education-list .year { color: var(--muted); font-weight: normal; }
 .social-row {
   display: flex;
   flex-wrap: wrap;
